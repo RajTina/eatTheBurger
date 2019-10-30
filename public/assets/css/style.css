@@ -1,7 +1,7 @@
 li {
     padding: 15px;
     margin: 15px;
-    background: #ffffff;
+    background: gray;
     list-style: none;
   }
   
@@ -31,18 +31,27 @@ li {
   h1 {
       text-align: center;
       /* text-shadow: 2px 2px #ffffff; */
+      background-color: gray;
+    border-style: dotted;
+    border-color:yellow;
+    /* padding: 10px,10px,10px,10px;
+    margin:10px,10px,10px,10px; */
+
   }
   
   h2 {
       text-align: center;
       /* text-shadow: 2px 2px #ffffff; */
+      border-style: dotted;
+      border-color:gold;
+      background-color: gray;
   }
   
   .create-update-form {
     padding: 25px;
     margin: 25px;
-    background: #eceff1;
-    border: 1px black solid;
+    background:gray;
+    /* border: 1px black solid; */
   }
   
   .form-group {
@@ -61,12 +70,12 @@ li {
   }
   body { 
       /* background: url(/public/assets/img/background-restaurant-cafe-bar-coffeehouse-41994740.jpg) ; */
-      background-color:darkcyan;
-      background-image: url("/public/assets/img/background-restaurant-cafe-bar-coffeehouse-41994740.jpg") ;
+      background-color:darkgray;
+      /* background-image: url("/public/assets/img/background-restaurant-cafe-bar-coffeehouse-41994740.jpg") ;
       background-position: center center;
       background-repeat:  no-repeat;
       background-attachment: fixed;
-      background-size:  cover;
+      background-size:  cover; */
      /* background-color: black; */
       
     /* border: 1px black solid; */
@@ -82,10 +91,10 @@ li {
     /* border: 1px black solid; */
   }
   
-  .footer {
+  /* .footer {
       text-align: center;
       /* text-shadow: 1px 1px #ffffff; */
-  }
+  } */
   .wrapper {
       height: 100%; 
       width: 100%; 
@@ -101,6 +110,11 @@ li {
     display: block;
     position: absolute;
     background-color: rgba(0,0,0,0.6);
-    color: #fff;
+    color:gray;
     padding: 0.5em;
+  }
+
+  .container{
+      background-color:darkcyan;
+
   }
