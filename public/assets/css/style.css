@@ -1,8 +1,9 @@
 li {
     padding: 15px;
     margin: 15px;
-    background: gray;
+    background:darkgray;
     list-style: none;
+    border: solid black;
   }
   
   ul {
@@ -31,7 +32,7 @@ li {
   h1 {
       text-align: center;
       /* text-shadow: 2px 2px #ffffff; */
-      background-color: gray;
+      background-color: darkgray;
     border-style: solid;
     border-color:black;
     /* padding: 10px,10px,10px,10px;
@@ -44,13 +45,14 @@ li {
       /* text-shadow: 2px 2px #ffffff; */
       border-style: solid;
       border-color:black;
-      background-color: gray;
+      background-color:darkgray;
   }
   
   .create-update-form {
     padding: 25px;
     margin: 25px;
-    background:gray;
+    background:darkgray;
+    border: solid black;
     /* border: 1px black solid; */
   }
   
@@ -119,10 +121,6 @@ li {
 
   }
 
-  .create-update-form{
-    border: solid black;
-  }
+  
 
-  ul.li{
-    border: solid black;
-  }
+ 
