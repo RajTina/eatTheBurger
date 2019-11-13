@@ -32,8 +32,8 @@ li {
       text-align: center;
       /* text-shadow: 2px 2px #ffffff; */
       background-color: gray;
-    border-style: dotted;
-    border-color:yellow;
+    border-style: solid;
+    border-color:black;
     /* padding: 10px,10px,10px,10px;
     margin:10px,10px,10px,10px; */
 
@@ -42,8 +42,8 @@ li {
   h2 {
       text-align: center;
       /* text-shadow: 2px 2px #ffffff; */
-      border-style: dotted;
-      border-color:gold;
+      border-style: solid;
+      border-color:black;
       background-color: gray;
   }
   
@@ -94,7 +94,7 @@ li {
   /* .footer {
       text-align: center;
       /* text-shadow: 1px 1px #ffffff; */
-  } */
+  */
   .wrapper {
       height: 100%; 
       width: 100%; 
@@ -115,6 +115,14 @@ li {
   }
 
   .container{
-      background-color:darkcyan;
+      background-color: wheat;
 
+  }
+
+  .create-update-form{
+    border: solid black;
+  }
+
+  ul.li{
+    border: solid black;
   }
