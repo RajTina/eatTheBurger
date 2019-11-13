@@ -1,4 +1,5 @@
-{"production": {
+{
+  "production": {
     "username": "root",
     "password": "password",
     "database": "burger_db",
